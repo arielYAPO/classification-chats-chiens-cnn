@@ -1,0 +1,15 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+data/
+tmp/
+output/
+*.log
+.DS_Store
+Thumbs.db
+
+# Ne conserver dans Git que le modèle final sélectionné.
+models/*
+!models/mobilenetv2_frozen.keras
